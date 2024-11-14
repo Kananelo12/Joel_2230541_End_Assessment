@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="KaraboGS_2230541" Class="KGSDataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-JOEL\SQLEXPRESS;Initial Catalog=KaraboGS_2230541;Integrated Security=True;Encrypt=False" SettingsObjectName="Joel_2230541_End_Assessment.Properties.Settings" SettingsPropertyName="KaraboGS_2230541ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblGuardian" Member="tblGuardians">
+    <Type Name="tblGuardian">
+      <Column Name="GuardianID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="HomePhone" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="WorkPhone" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="PhysicalAddress" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Association Name="tblGuardian_tblStudent" Member="tblStudents" ThisKey="GuardianID" OtherKey="GuardianID" Type="tblStudent" />
+      <Association Name="tblGuardian_tblStudentArchive" Member="tblStudentArchives" ThisKey="GuardianID" OtherKey="GuardianID" Type="tblStudentArchive" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblPayment" Member="tblPayments">
+    <Type Name="tblPayment">
+      <Column Name="PaymentID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="StudentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AmountPaid" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="OutstandingAmount" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="PaymentDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="CashierID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ReceiptNO" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="tblStaff_tblPayment" Member="tblStaff" ThisKey="CashierID" OtherKey="StaffID" Type="tblStaff" IsForeignKey="true" />
+      <Association Name="tblStudent_tblPayment" Member="tblStudent" ThisKey="StudentID" OtherKey="StudentID" Type="tblStudent" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblQualification" Member="tblQualifications">
+    <Type Name="tblQualification">
+      <Column Name="QualificationID" Type="System.String" DbType="Char(4) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="QualificationName" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Association Name="tblQualification_tblStaff" Member="tblStaffs" ThisKey="QualificationID" OtherKey="QualificationID" Type="tblStaff" />
+      <Association Name="tblQualification_tblStaffArchive" Member="tblStaffArchives" ThisKey="QualificationID" OtherKey="QualificationID" Type="tblStaffArchive" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblResult" Member="tblResults">
+    <Type Name="tblResult">
+      <Column Name="ResultID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="StudentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Subjects" Type="System.String" DbType="VarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="Marks" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Symbol" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Term" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SchoolYear" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="tblStudent_tblResult" Member="tblStudent" ThisKey="StudentID" OtherKey="StudentID" Type="tblStudent" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblStaff" Member="tblStaffs">
+    <Type Name="tblStaff">
+      <Column Name="StaffID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="PhysicalAddress" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="QualificationID" Type="System.String" DbType="Char(4)" CanBeNull="true" />
+      <Association Name="tblStaff_tblPayment" Member="tblPayments" ThisKey="StaffID" OtherKey="CashierID" Type="tblPayment" />
+      <Association Name="tblStaff_tblUser" Member="tblUsers" ThisKey="StaffID" OtherKey="StaffID" Type="tblUser" />
+      <Association Name="tblStaff_tblStudent" Member="tblStudents" ThisKey="StaffID" OtherKey="TeacherID" Type="tblStudent" />
+      <Association Name="tblStaff_tblStudentArchive" Member="tblStudentArchives" ThisKey="StaffID" OtherKey="TeacherID" Type="tblStudentArchive" />
+      <Association Name="tblQualification_tblStaff" Member="tblQualification" ThisKey="QualificationID" OtherKey="QualificationID" Type="tblQualification" IsForeignKey="true" />
+      <Association Name="tblUserRole_tblStaff" Member="tblUserRole" ThisKey="RoleID" OtherKey="RoleID" Type="tblUserRole" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblUserLogs" Member="tblUserLogs">
+    <Type Name="tblUserLog">
+      <Column Name="LogID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LogCode" Type="System.String" DbType="VarChar(14)" IsDbGenerated="true" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Activity" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="LogTimeStamp" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblUserRole" Member="tblUserRoles">
+    <Type Name="tblUserRole">
+      <Column Name="RoleID" Type="System.String" DbType="Char(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RoleName" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Association Name="tblUserRole_tblStaff" Member="tblStaffs" ThisKey="RoleID" OtherKey="RoleID" Type="tblStaff" />
+      <Association Name="tblUserRole_tblUser" Member="tblUsers" ThisKey="RoleID" OtherKey="RoleID" Type="tblUser" />
+      <Association Name="tblUserRole_tblStaffArchive" Member="tblStaffArchives" ThisKey="RoleID" OtherKey="RoleID" Type="tblStaffArchive" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblUsers" Member="tblUsers">
+    <Type Name="tblUser">
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="StaffID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StudentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="isLocked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="tblUserRole_tblUser" Member="tblUserRole" ThisKey="RoleID" OtherKey="RoleID" Type="tblUserRole" IsForeignKey="true" />
+      <Association Name="tblStaff_tblUser" Member="tblStaff" ThisKey="StaffID" OtherKey="StaffID" Type="tblStaff" IsForeignKey="true" />
+      <Association Name="tblStudent_tblUser" Member="tblStudent" ThisKey="StudentID" OtherKey="StudentID" Type="tblStudent" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserSession" Member="UserSessions">
+    <Type Name="UserSession">
+      <Column Name="UserID" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblStudent" Member="tblStudents">
+    <Type Name="tblStudent">
+      <Column Name="StudentID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Gender" Type="System.String" DbType="Char(7) NOT NULL" CanBeNull="false" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="HomeAddress" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="GradeLevel" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="JoinDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GuardianID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TeacherID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="tblStudent_tblPayment" Member="tblPayments" ThisKey="StudentID" OtherKey="StudentID" Type="tblPayment" />
+      <Association Name="tblStudent_tblResult" Member="tblResults" ThisKey="StudentID" OtherKey="StudentID" Type="tblResult" />
+      <Association Name="tblStudent_tblUser" Member="tblUsers" ThisKey="StudentID" OtherKey="StudentID" Type="tblUser" />
+      <Association Name="tblGuardian_tblStudent" Member="tblGuardian" ThisKey="GuardianID" OtherKey="GuardianID" Type="tblGuardian" IsForeignKey="true" />
+      <Association Name="tblStaff_tblStudent" Member="tblStaff" ThisKey="TeacherID" OtherKey="StaffID" Type="tblStaff" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblStaffArchive" Member="tblStaffArchives">
+    <Type Name="tblStaffArchive">
+      <Column Name="DeletedBy" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="DeletedDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="PhysicalAddress" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="QualificationID" Type="System.String" DbType="Char(4)" CanBeNull="true" />
+      <Column Name="StaffArchiveID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Association Name="tblQualification_tblStaffArchive" Member="tblQualification" ThisKey="QualificationID" OtherKey="QualificationID" Type="tblQualification" IsForeignKey="true" />
+      <Association Name="tblUserRole_tblStaffArchive" Member="tblUserRole" ThisKey="RoleID" OtherKey="RoleID" Type="tblUserRole" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblStudentArchive" Member="tblStudentArchives">
+    <Type Name="tblStudentArchive">
+      <Column Name="DeletedBy" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="DeletedDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Gender" Type="System.String" DbType="Char(7) NOT NULL" CanBeNull="false" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="HomeAddress" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="GradeLevel" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="JoinDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GuardianID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TeacherID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StudentArchiveID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Association Name="tblGuardian_tblStudentArchive" Member="tblGuardian" ThisKey="GuardianID" OtherKey="GuardianID" Type="tblGuardian" IsForeignKey="true" />
+      <Association Name="tblStaff_tblStudentArchive" Member="tblStaff" ThisKey="TeacherID" OtherKey="StaffID" Type="tblStaff" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

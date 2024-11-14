@@ -1,0 +1,14 @@
+11/7/2024 6:03:21 PM	 - 	Exception: 'System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Joel_2230541_End_Assessment.Root.Clerk.AccountVerification(String studentId, String password, DateTime DoB) in C:\Users\kanan\source\repos\Joel_2230541_End_Assessment\Joel_2230541_End_Assessment\Root\Clerk.cs:line 63'
+11/9/2024 6:16:50 PM	 - 	Exception: 'System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Joel_2230541_End_Assessment.Root.Clerk.AccountVerification(String studentId, String password, DateTime DoB) in C:\Users\kanan\source\repos\Joel_2230541_End_Assessment\Joel_2230541_End_Assessment\Root\Clerk.cs:line 63'
+11/12/2024 11:35:10 AM	 - 	Exception: 'System.InvalidOperationException: Can't perform Create, Update, or Delete operations on 'Table(tblStudentArchive)' because it has no primary key.
+   at System.Data.Linq.Table`1.CheckReadOnly()
+   at System.Data.Linq.Table`1.DeleteOnSubmit(TEntity entity)
+   at Joel_2230541_End_Assessment.AdminDash.btnRestoreStudent_Click(Object sender, EventArgs e) in C:\Users\kanan\source\repos\Joel_2230541_End_Assessment\Joel_2230541_End_Assessment\AdminDash.cs:line 893'

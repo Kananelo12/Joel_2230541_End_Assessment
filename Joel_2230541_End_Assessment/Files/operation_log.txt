@@ -1,0 +1,166 @@
+11/6/2024 8:20:29 PM	 - 	User 'john.doe@kgs.com'	 User Logged In
+11/6/2024 8:23:40 PM	 - 	Username: 'joel.kananelo@gmail.com'	 Failed Login Attempt
+11/6/2024 8:23:41 PM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/6/2024 8:25:49 PM	 - 	Username: 'kaa'	 Failed Login Attempt
+11/6/2024 8:28:39 PM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/6/2024 9:21:13 PM	 - 	Username: 'john.doe@kgs.com'	 Successful User Log In
+11/6/2024 9:48:10 PM	 - 	Username: 'john.doe@kgs.com'	 Failed Login Attempt
+11/6/2024 9:49:41 PM	 - 	Username: 'john.doe@kgs.com'	 User Logged out of system
+11/6/2024 9:49:45 PM	 - 	Username: 'john.doe@kgs.com'	 Successful User Log In
+11/6/2024 10:10:31 PM	 - 	Username: 'john.doe@kgs.com'	 Successful User Log In
+11/6/2024 10:21:27 PM	 - 	Username: 'john.doe@kgs.com'	 User Logged out of system
+11/6/2024 10:21:30 PM	 - 	Username: 'john.doe@kgs.com'	 Successful User Log In
+11/7/2024 5:06:42 AM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 5:42:30 AM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 6:00:18 AM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 6:08:05 AM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 6:30:51 AM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 6:31:22 AM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 6:33:00 AM	 - 	Username: 'mary.jane@kgs.com'	 Failed Login Attempt
+11/7/2024 6:33:04 AM	 - 	Username: 'mary.jane@kgs.com'	 Failed Login Attempt
+11/7/2024 6:33:27 AM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 6:34:27 AM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 6:35:06 AM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 6:45:14 AM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 6:47:57 AM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 6:52:42 AM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 6:57:31 AM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 6:58:58 AM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 7:02:32 AM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 7:07:42 AM	 - 	Username: 'john.doe@kgs.com'	 User Logged out of system
+11/7/2024 7:09:14 AM	 - 	Username: 'john.doe@kgs.com'	 Successful User Log In
+11/7/2024 7:10:26 AM	 - 	Username: 'mary.jane@kgs.com'	 User Logged out of system
+11/7/2024 7:11:19 AM	 - 	Username: 'john.doe@kgs.com'	 User Logged out of system
+11/7/2024 11:00:46 AM	 - 	Username: 'john.doe@kgs.com'	 Successful User Log In
+11/7/2024 11:04:06 AM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 12:29:22 PM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 12:30:21 PM	 - 	Username: 'mary.jane@kgs.com'	 Captured Student Payment
+11/7/2024 12:32:50 PM	 - 	Username: 'mary.jane@kgs.com'	 Successful User Log In
+11/7/2024 1:36:22 PM	 - 	Username: 'mary.jane@kgs.com'	 Created Student Record
+11/7/2024 1:36:29 PM	 - 	Username: 'mary.jane@kgs.com'	 Created User Account
+11/7/2024 1:40:58 PM	 - 	Username: 'mary.jane@kgs.com'	 Created Student Record
+11/7/2024 1:41:04 PM	 - 	Username: 'mary.jane@kgs.com'	 Created User Account
+11/7/2024 1:42:37 PM	 - 	Username: 'mary.jane@kgs.com'	 Created Student Record
+11/7/2024 1:42:46 PM	 - 	Username: 'mary.jane@kgs.com'	 Created User Account
+11/7/2024 1:45:07 PM	 - 	Username: 'mary.jane@kgs.com'	 Created Student Record
+11/7/2024 1:45:11 PM	 - 	Username: 'mary.jane@kgs.com'	 Created User Account
+11/7/2024 1:45:54 PM	 - 	Username: 'mary.jane@kgs.com'	 Updated Student Records
+11/7/2024 1:47:18 PM	 - 	Username: 'mary.jane@kgs.com'	 Created Student Record
+11/7/2024 1:47:20 PM	 - 	Username: 'mary.jane@kgs.com'	 Created User Account
+11/7/2024 1:47:32 PM	 - 	Username: 'mary.jane@kgs.com'	 Deleted Student Record
+11/7/2024 1:47:54 PM	 - 	Username: 'mary.jane@kgs.com'	 Captured Student Payment
+11/7/2024 1:53:37 PM	 - 	Username: 'mary.jane@kgs.com'	 User Logged out of system
+11/7/2024 2:05:43 PM	 - 	Username: 'kabelo.joel@kgs.com'	 Failed Login Attempt
+11/7/2024 2:09:21 PM	 - 	Username: 'kabelo.joel@kgs.com'	 Failed Login Attempt
+11/7/2024 2:10:06 PM	 - 	Username: 'mary.jane@kgs.com'	 User Logged out of system
+11/7/2024 2:10:07 PM	 - 	Username: 'mary.jane@kgs.com'	 User Logged out of system
+11/7/2024 2:11:24 PM	 - 	Username: 'john.doe@kgs.com'	 Modified User Account
+11/7/2024 2:14:46 PM	 - 	Username: 'john.doe@kgs.com'	 Created New Staff Record
+11/7/2024 2:15:21 PM	 - 	Username: 'john.doe@kgs.com'	 User Logged out of system
+11/7/2024 2:15:25 PM	 - 	Username: 'john.doe@kgs.com'	 User Logged out of system
+11/7/2024 2:16:37 PM	 - 	Username: 'teboho.jane@kgs.com'	 Student Logged out of system
+11/7/2024 2:16:38 PM	 - 	Username: 'teboho.jane@kgs.com'	 User Logged out of system
+11/7/2024 2:17:33 PM	 - 	Username: 'mary.jane@kgs.com'	 Captured Student Payment
+11/7/2024 2:18:58 PM	 - 	Username: 'mary.jane@kgs.com'	 User Logged out of system
+11/7/2024 2:19:00 PM	 - 	Username: 'mary.jane@kgs.com'	 User Logged out of system
+11/7/2024 2:19:43 PM	 - 	Username: 'thabo.lefisa@kgs.com'	 Captured Student Marks
+11/7/2024 2:20:01 PM	 - 	Username: 'thabo.lefisa@kgs.com'	 User Logged out of system
+11/7/2024 2:20:03 PM	 - 	Username: 'thabo.lefisa@kgs.com'	 User Logged out of system
+11/7/2024 2:20:29 PM	 - 	Username: 'teboho.jane@kgs.com'	 Student Logged out of system
+11/7/2024 2:20:33 PM	 - 	Username: 'teboho.jane@kgs.com'	 User Logged out of system
+11/7/2024 2:23:37 PM	 - 	Username: 'lineo.mahlaka@kgs.com'	 User Logged out of system
+11/7/2024 2:23:41 PM	 - 	Username: 'lineo.mahlaka@kgs.com'	 User Logged out of system
+11/7/2024 2:31:00 PM	 - 	Username: 'kabelo.joel@kgs.com'	 Failed Login Attempt
+11/7/2024 2:33:46 PM	 - 	Username: ''	 User Logged out of system
+11/7/2024 2:34:39 PM	 - 	Username: 'kabelo.joel@kgs.com'	 Student Logged out of system
+11/7/2024 2:34:41 PM	 - 	Username: 'kabelo.joel@kgs.com'	 User Logged out of system
+11/7/2024 2:35:11 PM	 - 	Username: 'thabo.lefisa@kgs.com'	 Captured Student Marks
+11/7/2024 2:35:18 PM	 - 	Username: 'thabo.lefisa@kgs.com'	 User Logged out of system
+11/7/2024 2:35:35 PM	 - 	Username: 'thabo.lefisa@kgs.com'	 Captured Student Marks
+11/7/2024 2:36:22 PM	 - 	Username: 'thabo.lefisa@kgs.com'	 Captured Student Marks
+11/7/2024 2:36:33 PM	 - 	Username: 'thabo.lefisa@kgs.com'	 User Logged out of system
+11/7/2024 2:36:35 PM	 - 	Username: 'thabo.lefisa@kgs.com'	 User Logged out of system
+11/7/2024 2:37:11 PM	 - 	Username: 'kabelo.joel@kgs.com'	 Student Logged out of system
+11/7/2024 2:37:14 PM	 - 	Username: 'kabelo.joel@kgs.com'	 User Logged out of system
+11/7/2024 2:38:05 PM	 - 	Username: 'thabo.thabang@kgs.com'	 User Logged out of system
+11/7/2024 2:38:06 PM	 - 	Username: 'thabo.thabang@kgs.com'	 User Logged out of system
+11/7/2024 2:42:28 PM	 - 	Username: 'kabelo.joel@kgs.com'	 Student Logged out of system
+11/7/2024 2:42:30 PM	 - 	Username: 'kabelo.joel@kgs.com'	 User Logged out of system
+11/7/2024 5:56:27 PM	 - 	Username: '2321'	 Failed Login Attempt
+11/7/2024 6:41:54 PM	 - 	Username: 'mary.jane@kgs.com'	 Captured Student Payment
+11/7/2024 6:43:34 PM	 - 	Username: 'mary.jane@kgs.com'	 User Logged out of system
+11/7/2024 6:43:35 PM	 - 	Username: 'mary.jane@kgs.com'	 User Logged out of system
+11/8/2024 12:01:22 PM	 - 	Username: 'john.doe@kgs.com'	 Failed Login Attempt
+11/9/2024 8:40:17 AM	 - 	Username: 'john.doe@kgs.com'	 Failed Login Attempt
+11/9/2024 8:41:46 AM	 - 	Username: 'asdsdaad'	 Failed Login Attempt
+11/9/2024 8:42:47 AM	 - 	Username: 'john.doe@kgs.com'	 Failed Login Attempt
+11/9/2024 8:43:01 AM	 - 	Username: 'john.doe@kgs.com'	 Failed Login Attempt
+11/9/2024 8:44:54 AM	 - 	Username: 'john.doe@kgs.com'	 User Logged out of system
+11/9/2024 8:44:56 AM	 - 	Username: 'john.doe@kgs.com'	 User Logged out of system
+11/9/2024 8:45:30 AM	 - 	Username: 'thabo.lefisa@kgs.com'	 User Logged out of system
+11/9/2024 8:45:31 AM	 - 	Username: 'thabo.lefisa@kgs.com'	 User Logged out of system
+11/9/2024 8:46:06 AM	 - 	Username: 'mary.jane@kgs.com'	 User Logged out of system
+11/9/2024 8:46:07 AM	 - 	Username: 'mary.jane@kgs.com'	 User Logged out of system
+11/9/2024 8:46:39 AM	 - 	Username: 'lerato.moleko@kgs.com'	 Student Logged out of system
+11/9/2024 8:46:41 AM	 - 	Username: 'lerato.moleko@kgs.com'	 User Logged out of system
+11/9/2024 8:17:16 PM	 - 	Username: 'john.doe@kgs.com'	 Created New Staff Record
+11/9/2024 8:25:51 PM	 - 	Username: 'john.doe@kgs.com'	 Created Student Record
+11/9/2024 8:25:54 PM	 - 	Username: 'john.doe@kgs.com'	 Created User Account
+11/9/2024 8:32:54 PM	 - 	Username: 'john.doe@kgs.com'	 User Logged out of system
+11/9/2024 8:32:55 PM	 - 	Username: 'john.doe@kgs.com'	 User Logged out of system
+11/9/2024 8:41:33 PM	 - 	Username: 'mary.jane@kgs.com'	 User Logged out of system
+11/9/2024 8:41:34 PM	 - 	Username: 'mary.jane@kgs.com'	 User Logged out of system
+11/9/2024 8:42:42 PM	 - 	Username: 'thabo.lefisa@kgs.com'	 Captured Student Marks
+11/9/2024 8:44:35 PM	 - 	Username: 'thabo.lefisa@kgs.com'	 User Logged out of system
+11/9/2024 8:44:36 PM	 - 	Username: 'thabo.lefisa@kgs.com'	 User Logged out of system
+11/9/2024 8:46:05 PM	 - 	Username: 'kabelo.joel@kgs.com'	 Student Logged out of system
+11/9/2024 8:46:06 PM	 - 	Username: 'kabelo.joel@kgs.com'	 User Logged out of system
+11/9/2024 8:46:34 PM	 - 	Username: 'may.wilson@kgs.com'	 Failed Login Attempt
+11/9/2024 8:47:02 PM	 - 	Username: 'lerato.moleko@kgs.com'	 Failed Login Attempt
+11/9/2024 8:47:11 PM	 - 	Username: 'lerato.moleko@kgs.com'	 Failed Login Attempt
+11/9/2024 8:49:08 PM	 - 	Username: 'lerato.moleko@kgs.com'	 Student Logged out of system
+11/9/2024 8:49:09 PM	 - 	Username: 'lerato.moleko@kgs.com'	 User Logged out of system
+11/9/2024 8:50:14 PM	 - 	Username: 'kabelo.joel@kgs.com'	 Student Logged out of system
+11/9/2024 8:50:15 PM	 - 	Username: 'kabelo.joel@kgs.com'	 User Logged out of system
+11/9/2024 8:50:34 PM	 - 	Username: 'may.wilson@kgs.com'	 Failed Login Attempt
+11/10/2024 4:34:00 AM	 - 	Username: 'john.doe@kgs.com'	 Modified User Account
+11/10/2024 4:34:08 AM	 - 	Username: 'john.doe@kgs.com'	 User Logged out of system
+11/10/2024 4:34:16 AM	 - 	Username: 'john.doe@kgs.com'	 User Logged out of system
+11/10/2024 4:34:34 AM	 - 	Username: 'may.wilson@kgs.com'	 Failed Login Attempt
+11/12/2024 8:32:15 AM	 - 	Username: 'mary.jane@kgs.com'	 Created Guardian Record
+11/12/2024 8:33:37 AM	 - 	Username: 'mary.jane@kgs.com'	 Created Student Record
+11/12/2024 8:33:41 AM	 - 	Username: 'mary.jane@kgs.com'	 Created User Account
+11/12/2024 8:34:07 AM	 - 	Username: 'mary.jane@kgs.com'	 User Logged out of system
+11/12/2024 8:34:08 AM	 - 	Username: 'mary.jane@kgs.com'	 User Logged out of system
+11/12/2024 10:09:39 AM	 - 	Username: 'john.doe@kgs.com'	 Created Guardian Record
+11/12/2024 10:10:11 AM	 - 	Username: 'john.doe@kgs.com'	 Created Guardian Record
+11/12/2024 10:10:39 AM	 - 	Username: 'john.doe@kgs.com'	 Created Guardian Record
+11/12/2024 10:12:05 AM	 - 	Username: 'john.doe@kgs.com'	 Created New Staff Record
+11/12/2024 10:12:52 AM	 - 	Username: 'john.doe@kgs.com'	 Created New Staff Record
+11/12/2024 10:18:22 AM	 - 	Username: 'john.doe@kgs.com'	 Created New Staff Record
+11/12/2024 10:21:18 AM	 - 	Username: 'john.doe@kgs.com'	 Created Student Record
+11/12/2024 10:21:22 AM	 - 	Username: 'john.doe@kgs.com'	 Created User Account
+11/12/2024 10:24:28 AM	 - 	Username: 'john.doe@kgs.com'	 Created Student Record
+11/12/2024 10:24:30 AM	 - 	Username: 'john.doe@kgs.com'	 Created User Account
+11/12/2024 10:27:00 AM	 - 	Username: 'john.doe@kgs.com'	 Created Student Record
+11/12/2024 10:27:02 AM	 - 	Username: 'john.doe@kgs.com'	 Created User Account
+11/12/2024 10:27:29 AM	 - 	Username: 'john.doe@kgs.com'	 Deleted Student Record
+11/12/2024 10:28:30 AM	 - 	Username: 'john.doe@kgs.com'	 Created New Staff Record
+11/12/2024 10:28:37 AM	 - 	Username: 'john.doe@kgs.com'	 Deleted Staff Record
+11/12/2024 10:53:49 AM	 - 	Username: 'john.doe@kgs.com'	 Failed Login Attempt
+11/12/2024 10:53:53 AM	 - 	Username: 'john.doe@kgs.com'	 Failed Login Attempt
+11/12/2024 11:20:10 AM	 - 	Username: 'john.doe@kgs.com'	 Restored Student Record Successfully
+11/12/2024 11:20:14 AM	 - 	Username: 'john.doe@kgs.com'	 Created a User Account for Test Student
+11/12/2024 11:34:42 AM	 - 	Username: 'john.doe@kgs.com'	 Created Student Record
+11/12/2024 11:34:44 AM	 - 	Username: 'john.doe@kgs.com'	 Created User Account
+11/12/2024 11:34:51 AM	 - 	Username: 'john.doe@kgs.com'	 Deleted Student Record
+11/12/2024 11:35:10 AM	 - 	Username: 'john.doe@kgs.com'	 Restored Student Record Successfully
+11/12/2024 11:40:50 AM	 - 	Username: 'john.doe@kgs.com'	 Created Student Record
+11/12/2024 11:41:26 AM	 - 	Username: 'john.doe@kgs.com'	 Deleted Student Record
+11/12/2024 11:41:41 AM	 - 	Username: 'john.doe@kgs.com'	 Restored Student Record Successfully
+11/12/2024 11:41:47 AM	 - 	Username: 'john.doe@kgs.com'	 Created a User Account for test3 stud
+11/12/2024 12:00:53 PM	 - 	Username: 'john.doe@kgs.com'	 Restored Staff Record Successfully
+11/12/2024 12:06:36 PM	 - 	Username: 'john.doe@kgs.com'	 Failed Login Attempt
+11/12/2024 12:07:13 PM	 - 	Username: 'john.doe@kgs.com'	 Deleted Staff Record
+11/12/2024 12:07:44 PM	 - 	Username: 'john.doe@kgs.com'	 Restored Staff Record Successfully
+11/12/2024 12:07:48 PM	 - 	Username: 'john.doe@kgs.com'	 Created a User Account for Test Staff
